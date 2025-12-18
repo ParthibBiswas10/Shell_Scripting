@@ -15,4 +15,4 @@ search(){
 }
 read -p "Enter numbers separated by spaces: " -a nums
 read -p "Enter key to Search:: " key
-search "$key" "${nums[@]}"
+search $key ${nums[@]}
